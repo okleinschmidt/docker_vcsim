@@ -1,0 +1,2 @@
+#!/bin/sh
+echo nameserver 8.8.8.8 > /etc/resolv.conf ; /go/bin/vcsim -host $VCSIM_HOSTS -vm $VCSIM_VMS -httptest.serve=:443
